@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 # Broken Navigator
 
 <div align="center">
@@ -6,6 +7,7 @@
 </div>
 
 ## Introduction
+
 Broken Navigator is an innovative and engaging educational project designed to highlight vulnerabilities in application development, specifically focusing on Tauri applications. This project serves as a hands-on learning platform, offering a series of challenges that expose users to common insecure, weak, and improper code patterns prevalent in Tauri applications. Each challenge is themed around different components of a ship, making the learning process not only informative but also immersive and entertaining.
 
 The primary audience for Broken Navigator is developers and students who are new to Rust and Tauri applications, as well as those interested in application security. By navigating through the challenges, users can gain practical insights into what to consider when building Tauri commands and applications. Additionally, the project aims to create test cases for fuzzing tooling, enhancing the ability to test and improve fuzzing capabilities in software development.
@@ -20,18 +22,18 @@ To reiterate, please be aware that Broken Navigator is an intentionally vulnerab
 
 ## Where To Start?
 
- ### Challenge Checklist
+### Challenge Checklist
 
-- [ ] Have Rust installed on your system ideally from [rustup.rs](https://rustup.rs)
-- [ ] Have `npm` or `pnpm` or similar installed to fetch the frontend dependencies
-- [ ] Install [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
-- [ ] Install `tauri-cli` via `cargo install tauri-cli --locked`
-- [ ] Install dependencies of the project with 
+-   [x] Have Rust installed on your system ideally from [rustup.rs](https://rustup.rs)
+-   [x] Have `npm` or `pnpm` or similar installed to fetch the frontend dependencies
+-   [x] Install [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
+-   [x] Install `tauri-cli` via `cargo install tauri-cli --locked`
+-   [X] Install dependencies of the project with
     ```sh
     cd broken-navigator
     npm install
     ```
-- [ ] Start with the first challenge 
+-   [X] Start with the first challenge
     ```sh
     cd challenges/space-navigator/1
     npm run tauri dev
@@ -42,7 +44,6 @@ To reiterate, please be aware that Broken Navigator is an intentionally vulnerab
 Each challenge is located within the `challenges/<component>/[1-x]` subdirectories. While challenges can generally be solved independently, some may require knowledge from previous ones.
 
 > To maintain the challenge integrity, please do not read the `INTERNAL.md` or the source code of each challenge before playing, as they contain solutions and details about the challenge structure.
-
 
 ## Why is this application a thing?
 

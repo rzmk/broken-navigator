@@ -13,3 +13,6 @@ The following are quick notes as I attempt the broken-navigator challenges.
 
 -   Custom commands do not need to be restricted by the allowlist (for example making a Rust command with [#tauri::command])
 
+## space-navigator/3
+
+This one was a bit more challenging for me. I was able to use the console in DevTools for invoking a tauri command with the window object, but identifying the resource path properly was a bit confusing at first. Looking at the `options` for the Rust API code for `writeFile`, there's a `BaseDirectory` enum that can be filled into the `dir` option with the right number to use as the base directory while I write the rest of the path as indicated in the config. Finding the enum was done primarily with looking through source code, then the Tauri website as [linked in the js path API](https://tauri.app/v1/api/js/path/#basedirectory) which helped me find the right value to use.

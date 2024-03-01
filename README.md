@@ -1,3 +1,5 @@
+> See [RZMK-INTERNAL-NOTES.md](RZMK-INTERNAL-NOTES.md) for some brief notes I wrote as I went through the challenges.
+
 <a name="readme-top"></a>
 
 # Broken Navigator
@@ -28,12 +30,12 @@ To reiterate, please be aware that Broken Navigator is an intentionally vulnerab
 -   [x] Have `npm` or `pnpm` or similar installed to fetch the frontend dependencies
 -   [x] Install [Tauri prerequisites](https://tauri.app/v1/guides/getting-started/prerequisites)
 -   [x] Install `tauri-cli` via `cargo install tauri-cli --locked`
--   [X] Install dependencies of the project with
+-   [x] Install dependencies of the project with
     ```sh
     cd broken-navigator
     npm install
     ```
--   [X] Start with the first challenge
+-   [x] Start with the first challenge
     ```sh
     cd challenges/space-navigator/1
     npm run tauri dev
